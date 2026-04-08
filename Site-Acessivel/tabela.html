@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela - Avatar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 class="titulo-principal">Site Acessível</h1>
+
+<div class="acessibilidade" aria-label="Controles de acessibilidade">
+  <button id="aumentar-fonte">A+</button>
+  <button id="diminuir-fonte">A-</button>
+  <button id="contraste">Alto Contraste</button>
+</div>
+
+<nav aria-label="Navegação principal">
+  <ul class="menu">
+    <li><a href="index.html">Formulário</a></li>
+    <li><a href="tabela.html" aria-current="page">Tabela</a></li>
+  </ul>
+</nav>
+
+<main>
+  <h2>Personagens de Avatar: A Lenda de Aang</h2>
+
+  <table>
+    <caption>Informações dos principais personagens</caption>
+    <thead>
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Dobra</th>
+        <th scope="col">Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Aang</td>
+        <td>Ar (Avatar - todos os elementos)</td>
+        <td>O último dobrador de ar e o Avatar, responsável por manter o equilíbrio entre as nações.</td>
+      </tr>
+      <tr>
+        <td>Sokka</td>
+        <td>Não é dobrador</td>
+        <td>Guerreiro estratégico da Tribo da Água do Sul, conhecido por sua inteligência e senso de humor.</td>
+      </tr>
+      <tr>
+        <td>Toph</td>
+        <td>Terra</td>
+        <td>Dobradora de terra extremamente poderosa, capaz de "ver" através das vibrações no solo.</td>
+      </tr>
+      <tr>
+        <td>Zuko</td>
+        <td>Fogo</td>
+        <td>Príncipe da Nação do Fogo em busca de redenção, com uma jornada marcante de mudança.</td>
+      </tr>
+      <tr>
+        <td>Katara</td>
+        <td>Água</td>
+        <td>Dobradora de água talentosa e determinada, com forte senso de justiça e liderança.</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

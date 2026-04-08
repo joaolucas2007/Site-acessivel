@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f3;
+  color: #222;
+  padding: 0;
+  margin-top: 100px; /* espaço para h1 fixo */
+  line-height: 1.5;
+}
+
+.titulo-principal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #1e3d59;
+  color: #fff;
+  padding: 20px 0;
+  margin: 0;
+  border-bottom: 3px solid #ff6e40;
+  z-index: 1000;
+}
+
+/* Nav */
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #1e3d59;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.menu a:hover,
+.menu a[aria-current="page"] {
+  background-color: #ff6e40;
+  color: #fff;
+}
+
+/* Main */
+main {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Fieldset */
+fieldset {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+/* Form */
+.campo {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input.erro-input {
+  border: 2px solid red;
+}
+
+.erro {
+  color: red;
+  font-size: 0.9em;
+  min-height: 18px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  background-color: #1e3d59;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff6e40;
+}
+
+/* Botões de acessibilidade */
+.acessibilidade {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.acessibilidade button {
+  width: auto;
+  background-color: #ff6e40;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.acessibilidade button:focus {
+  outline: 2px solid #1e3d59;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #1e3d59;
+  color: #fff;
+}
+
+tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+/* Alto contraste */
+.alto-contraste {
+  background-color: #000;
+  color: #fff;
+}
+
+.alto-contraste a {
+  color: #00ffff;
+}
+
+.alto-contraste table th {
+  background-color: #222;
+}
+
+.alto-contraste table td {
+  background-color: #000;
+}
